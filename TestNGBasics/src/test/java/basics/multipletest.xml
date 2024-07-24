@@ -1,0 +1,31 @@
+<suite name="Sanity Pack" thread-count="6" parallel="classes">
+	<test name="login1">
+		<classes>
+			<class name="basics.Annotationexample">
+			</class>
+			
+			<class name="basics.Dataproviderassnmt2">
+			</class>
+			
+			<class name="basics.LaunchBrowser">
+			</class>
+			
+		</classes>
+	</test>
+	
+	
+	<test name="login2">
+		<classes>
+			<class name="basics.Softassertsample">
+			</class>
+			
+			<class name="basics.Dataproviderassnmt2">
+			</class>
+			
+			<class name="basics.LaunchBrowser">
+			</class>
+			
+		</classes>
+	</test>
+	
+</suite>
